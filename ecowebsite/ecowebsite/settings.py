@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'website', 
     'ckeditor',
     'ckeditor_uploader',
-    'phonenumber_field',
+    
     
 
 ]
