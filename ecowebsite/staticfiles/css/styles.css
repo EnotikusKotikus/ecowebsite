@@ -1,0 +1,773 @@
+html,body,h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    top: 0;
+    left: 0;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.navbar a:hover{
+    color: #91D56E;
+}
+
+.nav-item{
+    line-height: 1.5;
+}
+
+.navbar{
+    background-color: black;
+    padding-right: 3rem;
+}
+
+
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background-color: #58B32B;
+    margin: 0.25rem;
+}
+.navbar-toggler{
+    border:none;
+    
+}
+
+.navbar-nav{
+    margin-right: 3rem;
+}
+
+.nav-item{
+    margin: 0 0.5rem;
+}
+
+.intro-images{
+    max-height: 90vh;
+}
+
+.intro-image{
+    max-width: 100vw;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown-menu{
+    text-decoration: none;
+
+    background-color: #F2F2F2;
+}
+
+.dropdown-menu a{
+    color: #5f5f5f;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1rem;
+}
+
+.dropdown-menu a:hover{
+    color: #414141;
+}
+
+
+.dropdown-item:hover{
+    background-color: #e9e9e9;
+}
+
+
+.navbar .logo-img{
+    height: 50px;
+}
+
+/* Purpose section */
+.purpose-container{
+  
+    margin: 5% 5%;
+}
+
+.purpose-img{
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#purpose .green-box{
+    background-color: #c2efbc;
+   
+}
+
+#purpose .green-box h2{
+    padding: 3rem 2rem 1rem;
+    font-weight: 700;
+    color: #3b4b50;
+    font-size: 3rem;
+    line-height: 1.3;
+}
+
+#purpose .green-box h4{
+    font-weight: 500;
+    color: #3b4b50;
+    padding: 0 2rem 2rem;
+}
+
+#purpose .projects-button .btn{
+    background-color: #535a63;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+#purpose .projects-button .btn:hover{
+    background-color: #3f454d;
+}
+
+/* Services section */
+#services{
+    padding-top: 1rem;
+    max-width: 100vw;
+    overflow: hidden;
+    color: white;
+}
+
+#services .services-title h2{
+    text-align: center;
+    
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    padding: 3rem 0;
+    margin: 4rem 0 0 0;
+}
+
+#services .services-title{
+    background-color: rgb(83, 90, 99);
+}
+
+/* biodiversity-conservation */
+
+#services .biodiversity-conservation{  
+    width: 100vw;
+    height: 23rem;
+    background: linear-gradient(rgba(20,20,20,.3),rgba(20,20,20,.3)), url("../../static/img/cockatoo-61194_1920.jpg") no-repeat center center ;
+    background-position:bottom -40rem center;
+    
+}
+
+
+#services .biodiversity-conservation .services-content{
+    padding: 2rem;
+    display: inline-block;
+    position: relative;
+    top: 5rem;
+    right: -3rem;
+
+}
+
+#services .biodiversity-conservation .services-content h4{
+    font-weight: 500;
+}
+
+
+
+#services .biodiversity-conservation .services-content h2{
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+#services .biodiversity-conservation .services-content button{
+    position: relative;
+    top: 2rem
+}
+
+
+/* Quality monitoring */
+
+#services .quality-monitoring{
+    width: 100vw;
+    height: 23rem;
+    background: linear-gradient(rgba(20,20,20,.4),rgba(20,20,20,.4)),url("../../static/img/mountain-slope-6374980_1920.jpg") no-repeat center center ;
+    background-position:bottom -15rem center;
+}
+
+
+#services .quality-monitoring .services-content{
+    padding: 2rem;
+    display: inline-block;
+    position: relative;
+    top: 5rem;
+    right: -53rem;
+
+}
+
+#services .quality-monitoring .services-content h4{
+    font-weight: 500;
+}
+
+
+
+#services .quality-monitoring .services-content h2{
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+#services .quality-monitoring .services-content button{
+    position: relative;
+    top: 2rem;
+    right: -11.3rem;
+}
+
+/* field-research */
+
+#services .field-research{
+    width: 100vw;
+    height: 23rem;
+    background: linear-gradient(rgba(20,20,20,.3), rgba(20,20,20,.3)),url("../../static/img/forest-floor-473844_1920.png") no-repeat center center;
+    background-position:bottom -15rem center;
+
+}
+
+
+
+#services .field-research .services-content{
+    padding: 2rem;
+    display: inline-block;
+    position: relative;
+    top: 5rem;
+    right: -3rem;
+}
+
+#services .field-research .services-content h4{
+    font-weight: 500;
+}
+
+
+
+#services .field-research .services-content h2{
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+#services .field-research .services-content button{
+    position: relative;
+    top: 2rem;
+
+}
+
+/* training-courses */
+
+
+
+#services .training-courses{
+    width: 100vw;
+    height: 23rem;
+    background: linear-gradient(rgba(20,20,20,0), rgba(20,20,20,0)),url("../../static/img/Webp.net-resizeimage (2).jpg") no-repeat center center;
+    background-position:bottom -25rem center;
+
+}
+
+
+
+
+#services .training-courses .services-content{
+    padding: 2rem;
+    display: inline-block;
+    position: relative;
+    top: 5rem;
+    right: -53rem;
+}
+
+#services .training-courses .services-content h4{
+    font-weight: 500;
+}
+
+
+
+#services .training-courses .services-content h2{
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+#services .training-courses .services-content button{
+    position: relative;
+    top: 2rem;
+    right: -11.3rem;
+
+}
+
+/* News section */
+#news{
+    padding-top: 7rem;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+#news .news-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 4rem;
+    color: #535a63;
+}
+
+#news .blog-wrapper{
+    width: 1195px;
+    height: 611px;
+    margin: 0 auto;
+    
+}
+
+#news .post-item{
+    width: 374px;
+    height: 280px;
+    margin: 0.75rem 0.75rem;   
+}
+#news .blog-items{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#news .blog-items .post-item{
+    overflow: hidden;
+    position: relative;
+}
+
+#news .blog-items .post-photo-wrapper{
+    width: 374px;
+    height: 280px;
+    
+    position: relative;
+}
+
+#news .blog-items .post-photo-wrapper{
+    width: 374px;
+    position: absolute;
+}
+#news .blog-items .post-photo-wrapper img{
+    max-width: 100%;
+}
+
+#news .post-desc-wrapper {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    padding: 2rem 1.8rem;   
+}
+
+#news .post-head i, span{
+    color: rgba(255,255,255,.7)
+}
+
+#news .post-title a{
+    font-size: 1.6rem;
+    text-align: left;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#news .post-title a:hover{
+    color: white;
+    
+}
+
+#news .post-title{
+    transition: margin 0.7s;
+}
+
+#news .post-title:hover{
+    margin-bottom: 1.25rem;
+}
+
+
+#news .wp-post-image:hover {
+    background-color: rgba(0,0,0,.7);
+}
+
+
+
+
+#news .post-desc-wrapper{
+    background: url("../../static/img/blog_masonry_tile_gradient.png") top left repeat-x;
+}
+
+
+/* pre-footer */
+#pre-footer{
+    max-width: 100vw;
+    height: 20rem;
+    background-color: #535a63;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 7rem;
+}
+#pre-footer h2{
+    margin-left: 5rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#pre-footer button{
+    margin-left: 8rem;
+    background-color: #bacd93;
+    border: none;
+    padding: 0.5rem 3rem;
+}
+
+#pre-footer button:hover{
+    background-color: #9aad75;
+}
+
+
+/* Footer */
+#footer {
+    width: 100%;
+    height: 15vw;
+    background-color: #b4cc95;
+}
+
+/* PROJECTS */
+
+
+/* Title */
+.projects-welcome{
+    width: 100vw;
+    height: 19rem;
+    background: linear-gradient(rgba(20,20,20,.3), rgba(20,20,20,.3)),url("../../static/img/forest-morning.jpg") no-repeat center center;
+    background-position:bottom -25rem center;
+    display: flex;
+}
+
+.projects-welcome .projects-text h2{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Assistant', sans-serif;   
+}
+
+.projects-welcome .projects-text{
+    margin: auto auto;
+}
+
+
+.projects-wrapper{
+    overflow: hidden;
+}
+
+/* Filters  */
+
+.filters_buttons{
+    display: flex;
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 1rem 0;
+
+}
+.filters_buttons li{
+    margin-right: 2rem;
+    
+}
+.filters_buttons li a{
+    color: #58b32b;
+}
+
+.filters_buttons li a:hover{
+    color: #499125;
+    text-underline-position: auto;
+}
+
+.filters_buttons .label{
+    color: #a8a8a8;
+    text-decoration: initial;
+}
+
+/* Category list */
+
+.category-list a{
+    color: #858585;
+}
+
+.category-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+#filter-list li{
+    margin-right: 3rem;
+}
+#filter-list{
+    overflow: hidden;
+}
+#filter-list .tag-active{
+    color: #58b32b;
+}
+
+#projects {
+    padding-top: 2rem;
+    margin: 0;
+}
+
+#projects .col-lg-3, .col-md-6, .col-sm-12{
+    margin: 0;
+    padding: 0;
+
+}
+
+#projects .item{
+    width: 100%;
+    padding: 1rem;
+}
+#projects .projects-items{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+#projects .item-image{
+    overflow: hidden;
+}
+
+#projects .item-image img{
+    object-fit: cover;
+    height: 306px;
+    width: 306px;
+    min-width: 100%;
+    transition: transform .5s;
+}
+
+#projects .item-image img:hover{
+    transform: scale(1.05);
+}
+
+#projects .title-wrapper a{
+    color: #3b4b50;
+    font-size: 1.5rem;
+}
+
+#projects .title-wrapper{
+    padding: 1.25rem;
+}
+
+#projects .entry-title{
+    font-size: 1.1rem;
+}
+
+/* About  */
+.about-title{
+    height: 19rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-title .about-container{
+    background: linear-gradient(rgba(20,20,20,.4),rgba(20,20,20,.4)), url("../img/meadow-3743023_1920.jpg") no-repeat center center ;
+    height: 19rem;
+    background-position:bottom -5rem center;
+    display: flex;
+    overflow: hidden;
+
+}
+.about-title .about-container .about-text{
+    margin: auto auto;
+}
+
+.about-title .about-container .about-text h2{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Assistant', sans-serif;  
+}
+
+/* about-company galery */
+
+
+#about-company {
+    padding-top: 4rem;
+    margin: 0;
+}
+
+#about-company .col-lg-3, .col-md-6, .col-sm-12{
+    margin: 0;
+    padding: 0;
+
+}
+
+#about-company .item{
+    width: 100%;
+    padding: 1rem;
+}
+#about-company .galery{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: 0 5rem;
+}
+
+#about-company .item-image{
+    overflow: hidden;
+}
+
+#about-company .item-image img{
+    object-fit: cover;
+    height: 306px;
+    width: 306px;
+    min-width: 100%;
+    transition: transform .5s;
+}
+
+#about-company .item-image img:hover{
+    transform: scale(1.1);
+}
+
+
+#about-company .description{
+    margin: 3rem 5rem ;
+}
+
+#about-company .description .company-name {
+    color: #3b4b50;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    margin: 0 0 1rem 0;
+}
+
+
+/* Project single  */
+#project-single{
+    margin: 4rem 7%;
+    
+}
+
+#project-single .title_wrapper h1{
+    color: #3b4b50;
+    font-size: 2.5rem;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+#project-single .title_wrapper{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#project-single .post-photo{
+    overflow: hidden;
+    display: inline;
+    
+    
+}
+
+#project-single .post-photo img{
+    float: left;
+    object-fit: cover;
+    height: 25rem;
+    width: 35rem;
+    display: inline;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+}
+
+#project-single .main-block {
+    min-height: 65vh;
+    overflow: auto;
+}
+
+#project-single .main-block .post-text{
+    position: relative;
+    
+}
+
+
+#project-single .file-aditional{
+    margin-top: 5rem;
+}
+
+#project-single .file-aditional h6{
+    display: inline;
+    margin-right: 1rem;
+    color: #3b4b50;
+}
+
+#project-single .file-aditional a{
+    color: #91D56E;
+}
+
+#project-single .file-aditional a:hover{
+    color: #64944c;
+    text-decoration: underline;
+}
+
+
+
+#carouselProjectPost{
+    width: 60vw;
+    height: 80vh;
+
+}
+
+.content .carousel-column {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+#carouselProjectPost .carousel-item {
+    overflow: hidden;
+    width: 60vw;
+    height: 80vh;
+}
+
+#carouselProjectPost .carousel-item  img{
+    object-fit: cover;
+    width: 60vw;
+    height: 80vh;
+}
+
+
+.content{
+    margin-top: 5rem;
+}
+
+
+/* Gallery */ 
+
+/*Head*/
+
+.page-top-welcome{
+    width: 100vw;
+    height: 19rem;
+    background: linear-gradient(rgba(20,20,20,.3), rgba(20,20,20,.3)),url("../../static/img/forest-morning.jpg") no-repeat center center;
+    background-position:bottom -25rem center;
+    display: flex;
+}
+
+.page-top-welcome .page-top-text h2{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Assistant', sans-serif;   
+}
+
+.page-top-welcome .page-top-text{
+    margin: auto auto;
+}
+
+
+.page-top-wrapper{
+    overflow: hidden;
+}
